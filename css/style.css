@@ -5,13 +5,19 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Dosis', sans serif;
+    font-family: 'Noto Sans JP', serif;
     line-height: 5;
-    color: #300fa5
 }
 
 /* ------- Base Layout Styles ------- */
+/*Nav*/
 
 .banner {
-    background-color: #a50f0f ;
+    background-color: #f8f8f8 ;
+}
+
+.name {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
 }
