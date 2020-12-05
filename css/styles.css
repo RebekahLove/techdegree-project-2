@@ -1,7 +1,17 @@
 
-/* ------- Base Element Style ------- */
+/* ------- Base Element Styles ------- */
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dosis', sans serif;
+    line-height: 5;
+    color: #300fa5
 }
 
+/* ------- Base Layout Styles ------- */
+
+.banner {
+    background-color: #a50f0f ;
+}
