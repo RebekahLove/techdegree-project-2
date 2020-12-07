@@ -46,22 +46,20 @@ h3 {
 .name {
     font-size: 2.75em;
     font-weight: bold;
-    text-align: center;
 }
 
 .main-nav li {
-    display: block;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    color: #000000;
-    background-color: #fff;
+    text-align: center;  
     margin-top: 6px;
     margin-bottom: 6px;
+    background-color: #fff;
 }
 
 .main-nav a {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
     padding: 10px 15px;
     display: block;
 }
@@ -70,14 +68,8 @@ h3 {
     color: #fa736a
 }
 
-
-
 /* ------- Media Queries ------- */
 @media (min-width: 320px) {
-    
-    .wrapper {
-        min-height: 100vh;
-    }
     
     .container {
         width: 70%;
@@ -85,8 +77,9 @@ h3 {
         margin: 0 auto;
     }
 
-    .name,
-    .main-nav li {
-        display: inline;
+   
+    }
+    .name {
+        text-align: center;
     }
 }
