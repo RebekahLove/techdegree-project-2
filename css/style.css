@@ -9,31 +9,84 @@ body {
     line-height: 1.5;
 }
 
-/* ------- Base Layout Styles ------- */
-/*Nav*/
-
-.banner {
-    background-color: #f8f8f8 ;
+p {
+    font-size: 24px;
 }
 
-.name {
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+/* ------- Layout Containers ------- */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.main-header {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 1em 0;
     text-align: center;
-    font-size: 2.5em;
-    font-weight: 900;
-    margin: 0;
-    padding: 0;
+}
+
+/* ------- Base Layout Styles ------- */
+
+
+/*Nav*/
+
+.name {
+    font-size: 2.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-nav li {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .main-nav a {
-    text-align: center;
-    display: block;
-    font-size: 1.5em;
     padding: 10px 15px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration-line: none;
+    display: block;
 }
 
 .main-nav a:hover {
     color: #fa736a
+}
+
+
+
+/* ------- Media Queries ------- */
+@media (min-width: 320px) {
+    
+    .wrapper {
+        min-height: 100vh;
+    }
+    
+    .container {
+        width: 70%;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    .name,
+    .main-nav li {
+        display: inline;
+    }
 }
