@@ -35,7 +35,7 @@ h3 {
 }
 
 .main-nav li {
-    text-align: center;  
+    text-align: center; 
     margin-top: 6px;
     margin-bottom: 6px;
     background-color: #fff;
@@ -86,15 +86,11 @@ h3 {
         margin: 0 auto;
     }
    
-    .name,
-    .main-nav li{
-        display: inline-block;
+    
+    .main-nav li {
+      display: block;
     }
 
-    .name {
-        margin-right: 50px;
-    }
-
- 
+  
 }
     
