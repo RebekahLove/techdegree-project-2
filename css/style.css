@@ -11,10 +11,26 @@ body {
   color: #000000;
 }
 
+p {
+  font-size: .95em;
+  margin-bottom: 1.5em;
+}
+
+h2,
+h3,
 a { 
 	color: #000000;
+}
+
+h2,
+h3 {
+  margin-top: 0;
+}
+
+a { 
 	text-decoration: none;
 }
+
 
 /* ================================= 
   Base Layout Styles
@@ -23,7 +39,32 @@ a {
 /* ---- Navigation ---- */
 
 .name {
-  margin: 0;
+  font-size: 1.25em;
+  text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav li {
+  text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #fa736a;
+}
+
+.main-nav a {
+  padding: 10px 15px;
+  display: block;
 }
 
 /* ---- Layout Containers ---- */
@@ -34,8 +75,11 @@ a {
 }
 
 .main-header {
+  text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 	background: #f8f8f8;
-  padding: 1em 0;
+  margin-bottom: 30px;
 }
 
 .main-footer {
@@ -53,20 +97,45 @@ a {
   Media Queries
 ==================================== */
 
-@media (min-width: 320px) {
+@media (min-width: 768px) {
   
   .wrap {
     min-height: 100vh;
   }
   
   .container {
-    width: 70%;
-    max-width: 1000px;
+    width: 80%;
+    max-width: 1150px;
     margin: 0 auto;
   }
+
+  .name,
+  .main-nav,
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .name {
+    width: 240px;
+    margin-right: 50px;
+  }
+
+
+
+
+
 }
 
 
+@media (min-width: 1024px) {
 
+
+
+
+
+
+
+  
+}
 
 
