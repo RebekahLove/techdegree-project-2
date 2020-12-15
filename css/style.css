@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  font-size: .95em;
+  font-size: 1.5em;
   margin-bottom: 1.5em;
 }
 
@@ -27,6 +27,15 @@ h3 {
   margin-top: 0;
 }
 
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
 a { 
 	text-decoration: none;
 }
@@ -39,33 +48,34 @@ a {
 /* ---- Navigation ---- */
 
 .name {
-  font-size: 1.25em;
+  font-size: 2em;
+}
+
+.name,
+.main-nav li {
   text-align: center;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
 .main-nav li {
-  text-align: center;
-	background: #fff;
-	margin-top: 6px;
-	margin-bottom: 6px;
+  background: #fff;
 }
 
 .main-nav a {
-	font-size: .95em;
+  font-size: 1.25em;
+  font-weight: bold;
 	color: #000000;
-	text-transform: uppercase;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
 }
 
 .main-nav a:hover {
 	color: #fa736a;
 }
 
-.main-nav a {
-  padding: 10px 15px;
-  display: block;
-}
 
 /* ---- Layout Containers ---- */
 
@@ -104,24 +114,35 @@ a {
   }
   
   .container {
-    width: 80%;
+    width: 85%;
     max-width: 1150px;
     margin: 0 auto;
   }
 
+  .main-nav li {
+    background: none;
+  }
+
   .name,
-  .main-nav,
   .main-nav li {
     display: inline-block;
   }
 
   .name {
     width: 240px;
-    margin-right: 50px;
   }
 
+  .profile-image {
+    width: 300px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
 
-
+  p {
+    border: solid 1px red;
+  }
 
 
 }
@@ -135,7 +156,7 @@ a {
 
 
 
-  
+
 }
 
 
