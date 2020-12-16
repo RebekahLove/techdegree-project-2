@@ -11,6 +11,7 @@ body {
   color: #000000;
 }
 
+
 p {
   font-size: 1.5em;
   margin-bottom: 1.5em;
@@ -25,6 +26,7 @@ a {
 h2,
 h3 {
   margin-top: 0;
+  text-align: center;
 }
 
 h2 {
@@ -40,6 +42,9 @@ a {
 	text-decoration: none;
 }
 
+.content-img {
+  width: 450px;
+}
 
 /* ================================= 
   Base Layout Styles
@@ -119,6 +124,25 @@ a {
     margin: 0 auto;
   }
 
+  /* .main-nav {
+    float: right;
+  }
+
+  .main-nav li {
+    float: left;
+    margin-left: 12px;
+  }
+
+  .name {
+    float: left;
+  } */
+
+
+
+
+
+
+
   .main-nav li {
     background: none;
   }
@@ -143,6 +167,19 @@ a {
   p {
     border: solid 1px red;
   }
+
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
 
 
 }
