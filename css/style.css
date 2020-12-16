@@ -15,6 +15,7 @@ body {
 p {
   font-size: 1.5em;
   margin-bottom: 1.5em;
+  text-align: center;
 }
 
 h2,
@@ -31,11 +32,16 @@ h3 {
 
 h2 {
   font-size: 1.25em;
+  padding-top: 1.5em;
+	padding-bottom: 1.5em;
+  margin-top: 1em;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 500;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 a { 
@@ -44,6 +50,8 @@ a {
 
 .content-img {
   width: 450px;
+  padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 /* ================================= 
