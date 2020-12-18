@@ -242,6 +242,36 @@ img {
 
 @media (min-width: 1024px) {
 
+/* ----  Header/Navigation  ---- */
+
+  .name {
+    float:left;
+  }
+  
+  .intro {
+    padding-top: 2em;
+  }
+
+  .tagline {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .profile-image{
+    width: 400px;
+    margin-top: 1.25em;
+    margin-left: 5em;
+    margin-right: 1em;
+  }
+ 
+  .main-nav{
+    float: right;
+  }
+
+
+
+
+
   /* .main-nav {
     float: right;
     padding: inherit;
