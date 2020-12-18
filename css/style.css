@@ -228,13 +228,9 @@ img {
     float: left;
   }
 
-  .primary {
-    padding-right: .5em;
-    width: 50%;
-  }
-
+  .primary,
   .secondary {
-    padding-left: .5em;
+    padding-right: .5em;
     width: 50%;
   }
 
@@ -268,31 +264,23 @@ img {
     float: right;
   }
 
+/* ---- Columns ---- */
 
+.col {
+  float: left;
+}
 
+.primary,
+.secondary {
+  padding: 0;
+}
 
-
-  /* .main-nav {
-    float: right;
-    padding: inherit;
-  }
-
-  .name,
-  .main-nav li{
-    display: inline;
-    float: left;
-    border: 1px solid red;
-  }
-
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
-
-
-
-
+.left,
+.middle,
+.right {
+  width: 33.3333333333%;
+  padding: 1em;
+}
 
 }
 
