@@ -282,6 +282,13 @@ img {
   padding: 1em;
 }
 
+/* ---- Footer/Navigation ---- */
+  .footer-break {
+    max-width: 60%;
+    margin: auto;
+  }
+
+
 }
 
 
