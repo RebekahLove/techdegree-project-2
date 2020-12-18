@@ -207,7 +207,6 @@ ul.skills {
     margin: 0 auto;
   }
 
-
 /* ----  Header/Navigation  ---- */
 
   .main-nav li {
@@ -233,7 +232,6 @@ ul.skills {
     clear: both;
   }
 
-
 /* ----  Footer/Navigation  ---- */
 
   .top {
@@ -253,7 +251,6 @@ ul.skills {
   .footer-break {
     margin-top: 1em; 
   }
-     
 
 /* ---- Columns ---- */
 
@@ -266,7 +263,6 @@ ul.skills {
     padding-right: .5em;
     width: 50%;
   }
-
 }
 
 @media (min-width: 1024px) {
@@ -299,29 +295,28 @@ ul.skills {
 
 /* ---- Columns ---- */
 
-.col {
-  float: left;
-}
+  .col {
+    float: left;
+  }
 
-.primary,
-.secondary {
-  padding: 0;
-}
+  .primary,
+  .secondary {
+    padding: 0;
+  }
 
-.left,
-.middle,
-.right {
-  width: 33.3333333333%;
-  padding: 1em;
-}
+  .left,
+  .middle,
+  .right {
+    width: 33.3333333333%;
+    padding: 1em;
+  }
 
 /* ---- Footer/Navigation ---- */
+  
   .footer-break {
     max-width: 60%;
     margin: auto;
   }
-
-
 }
 
 
