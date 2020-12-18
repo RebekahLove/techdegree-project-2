@@ -12,16 +12,16 @@ body {
   color: #000000;
 }
 
-p {
-  font-size: 1.25em;
-  margin-bottom: 1.5em;
-  text-align: center;
+.name,
+.footer-name {
+  font-family: 'Press Start 2P', serif;
 }
 
-h2,
-h3,
-a { 
-	color: #000000;
+p {
+  font-size: 1.25em;
+  color: #019b9b;
+  margin-bottom: 1.5em;
+  text-align: center;
 }
 
 h2,
@@ -31,6 +31,7 @@ h3 {
 }
 
 h2 {
+  color: #ffa632;
   font-size: 1.25em;
   padding-top: 1.5em;
 	padding-bottom: 1.5em;
@@ -48,8 +49,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   line-height: 1.38em;
-  color: #000000;
-
+  color:lightgreen;
 }
 
 img {
@@ -58,11 +58,44 @@ img {
 
 .content-img {
   padding-top: 1.5em;
-	padding-bottom: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .profile-image {
   margin: 0;
+  border-radius: 5%;
+  max-width: 202px;
+  height: 269px;
+}
+
+.section {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.skills{
+  color: #019b9b;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 100px;
+  display: inline-block;
+  background: #0c8cf5;
+  color: #2f019b;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #00ffaa;
 }
 
 
@@ -73,7 +106,8 @@ img {
 /* ---- Navigation ---- */
 
 .name {
-  font-size: 2em;
+  font-size: 1.45em;
+  color:lightgreen;
 }
 
 .name,
@@ -97,7 +131,7 @@ img {
 
 .main-nav a:hover,
 .footer-nav a:hover {
-	color: #fa736a;
+	color: #ff0095;
 }
 
 .clearfix::after {
@@ -117,19 +151,19 @@ img {
   text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	background: #f8f8f8;
+	background: #2b0744;
   margin-bottom: 30px;
 }
 
 .main-footer {
   text-align: center;
 	padding: 2em 0;
-	background: #f8f8f8;
+	background: #2b0744;
 }
 
 .contact {
   padding-bottom: 2em;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.582);
 }
 
 /* ----  Footer Navigation  ---- */
@@ -139,15 +173,17 @@ img {
 }
 
 .footer-name {
+  font-size: 15px;
+  color:lightgreen;
   margin: 0;
-  padding: 10px 15px;
+  padding: 0 5px;
   float: left;
 }
 
 .footer-nav {
   font-weight: bold;
   float: right;
-  padding: 15px 15px;
+  padding: 0 5px;
 }
 
 .full {
@@ -183,10 +219,6 @@ img {
     display: inline-block;
   }
 
-  .name {
-    width: 240px;
-  }
-
   .profile-image {
     width: 300px;
     float: right;
@@ -214,7 +246,8 @@ img {
   }
 
   .footer-name{
-    margin-top: .5em;
+    margin-top: 1em;
+    margin-left: 1em;
   }
 
   .footer-break {
