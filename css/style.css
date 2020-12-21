@@ -203,7 +203,7 @@ ul.skills {
   
   .container {
     width: 95%;
-    max-width: 1150px;
+    max-width: 1024px;
     margin: 0 auto;
   }
 
@@ -311,10 +311,16 @@ ul.skills {
     padding: 1em;
   }
 
+  ul.skills,
+  .closer {
+    max-width: 1024px;
+    margin: auto;
+  }
+ 
 /* ---- Footer/Navigation ---- */
   
   .footer-break {
-    max-width: 60%;
+    max-width: 1024px;
     margin: auto;
   }
 }
